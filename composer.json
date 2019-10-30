@@ -10,7 +10,7 @@
     }
   },
   "require": {
-    "jhedstrom/drupalextension": "~4"
+    "drupal/drupal-extension": "~4"
   },
   "autoload": {
     "psr-0": {
