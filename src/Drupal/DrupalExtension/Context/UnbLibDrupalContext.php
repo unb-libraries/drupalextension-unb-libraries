@@ -11,4 +11,13 @@ class UnbLibDrupalContext extends DrupalContext {
 
   // Add public methods here.
 
+  /**
+   * Wait for $seconds.
+   *
+   * @When I wait :seconds
+   */
+  public function iWait($seconds) {
+    sleep($seconds);
+  }
+
 }
