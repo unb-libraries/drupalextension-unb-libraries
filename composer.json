@@ -1,0 +1,20 @@
+{
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "name": "unb-libraries/drupalextension-unb-libraries",
+  "description": "Localized extensions to jhedstrom/drupalextension",
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  },
+  "require": {
+    "jhedstrom/drupalextension": "~4"
+  },
+  "autoload": {
+    "psr-0": {
+      "Drupal\\DrupalExtension": "src/"
+    }
+  }
+}
