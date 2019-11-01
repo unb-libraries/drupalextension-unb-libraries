@@ -24,7 +24,7 @@ class UnbLibDrupalContext extends DrupalContext {
   /**
    * Index Search API $index_id and wait $seconds
    *
-   * @When I re-index :id and wait :seconds
+   * @When I re-index :index_id and wait :seconds
    */
   public function iReIndexAndWait($index_id, $seconds) {
     $index = Index::load($index_id);
